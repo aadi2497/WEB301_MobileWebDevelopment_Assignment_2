@@ -1,5 +1,5 @@
 .card {
-  background-color: dodgerblue;
+  background-color: rgb(0, 156, 73);
   color: white;
   padding: 1rem;
   height: fit-content;
@@ -20,7 +20,7 @@
   }
 
   .cards img{
-    width: fit-content;
+    width: 320px;
     height: auto;
   }
 
@@ -30,6 +30,11 @@
   .cards { 
     grid-template-columns: repeat(3, 1fr); 
   }
+}
+
+ul li{
+  text-align: center;
+  list-style-position: inside;
 }
 
 [class*="col-"] {

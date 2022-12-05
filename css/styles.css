@@ -30,10 +30,25 @@ html, body{
   .topnav .icon {
     display: none;
   }
+
+  button {
+   
+    width: 150px;
+    background-color: #003220;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 2px;
+  }
+
+  button > a{
+    font-size: 14px;
+    color: #f2f2f2;
+    text-decoration: none;
+  }
   
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width:380px) {
     .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+       .topnav a.icon {
       float: right;
       display: block;
     }
